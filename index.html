@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="bg" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,10 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Brennan McCreary</title>
 </head>
-<body>
+<body class="bg">
     <nav class="navbar navbar-expand-lg navbar-light nav-bg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand nav-text-font" href="#">Brennan McCreary</a>
+            <a class="navbar-brand nav-text-title_font" href="#">Brennan McCreary</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,6 +33,33 @@
             </div>
         </div>
     </nav>
+
+    <div class="text-card bg">
+        <div class="card" style="border:0px">
+            <div class="card-body text-card-bg">
+              <h2 class="card-title text-card-font_title">Hi. I'm Brennan.</h2>
+              <p class="card-text text-card-font_body">
+                This is my portfolio site.  
+                I am currently a student at devCodeCamp working on completing their 
+                Full Stack Web Development program.  This is filler text because
+                I do not know what to put in this section.</p>
+              <a href="#word" class="card-link">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-card">
+          <div class="card image-card-bg" style="border:0px">
+            <div class="card-body image-card-txt_size">
+              <h5 class="card-title image-card-font_title">Featured Project</h5>
+              <h4 class="card-title image-card-font_subtitle">"Most Wanted"</h4>
+              <p class="card-text image-card-font_body">'Most Wanted' was written to be able to search people and their lineage based on their name or traits. It is written in Javascript and utilizes multiple JS scripts.  It also includes a recursive search algorithm.</p>
+              <a href="#word" class="card-link">Read more</a>
+            </div>
+            <img src="images/most-wanted-ref-img.PNG" class="card-img-bottom image-card-img_size image-card-img_border" alt="...">
+          </div>
+    </div>
+
     <div class="word" id="word">
         Hello World
     </div>
