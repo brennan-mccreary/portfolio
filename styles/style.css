@@ -1,5 +1,42 @@
 html {
-    background-color: #e1e1e1;
+    background-color: #c5c5c5;
     font-size: 10px;
     font-family: "Bahnschrift", Times, serif;
+}
+
+.nav-bg {
+    background-image: url("../images/jj-ying-8bghKxNU1j0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-text-font {
+    font-size: 4rem;
+    font-family: "Bahnschrift", Times, serif;
+    color: #ffffff !important;
+}
+
+.nav-font {
+    font-size: 2rem;
+    font-family: "Ebrima", Times, serif;
+    color: #ffffff !important;
+}
+
+.nav-font:hover {
+    font-size: 2rem;
+    font-family: "Ebrima", Times, serif;
+    color: #717fad !important;
+}
+
+.nav-padding {
+    padding-left: 100rem;
+}
+
+.word {
+    margin-top: 500rem;
+}
+
+.nav-padding-item {
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
