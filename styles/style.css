@@ -49,9 +49,12 @@
 }
 
 .text-card {
-    padding-top: 15rem;
-    padding-left: 5rem;
-    width: 52rem;
+    padding-top: 12rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    width: 33vw;
+    min-width:36rem;
 }
 
 .text-card-bg {
@@ -72,8 +75,11 @@
 
 .image-card {
     padding-top: 5rem;
-    padding-left: 5rem;
-    width: 66rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 5rem;
+    width: 33vw;
+    min-width:36rem;
 }
 
 .image-card-bg {
@@ -81,13 +87,15 @@
 }
 
 .image-card-txt_size {
-    width: 64rem;
+    width: 100%;
+    min-width: 300px;
 }
 
 .image-card-img_size {
     margin-left: 1rem;
-    height: 36rem;
-    width: 64rem;
+    height: auto;
+    width: 90%;
+    min-width: 280px;
 }
 
 .image-card-img_border {
@@ -112,4 +120,8 @@
     font-size: 1.5rem;
     color: #3c46d9 !important;
     font-family: "Bahnschrift", Times, serif;
+}
+
+.page-elements {
+    width: 40vw;
 }
