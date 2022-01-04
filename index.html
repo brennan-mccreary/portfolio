@@ -11,14 +11,14 @@
 <body class="bg">
     <nav class="navbar navbar-expand-lg navbar-light nav-bg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand nav-text-title_font" href="#">Brennan McCreary</a>
+            <a class="navbar-brand nav-text-title_font" href="">Brennan McCreary</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse nav-font nav-padding" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item nav-padding-item">
-                <a class="nav-link nav-font active" aria-current="page" href="#">Home</a>
+                <a class="nav-link nav-font active" aria-current="page" href="">Home</a>
                 </li>
                 <li class="nav-item nav-padding-item">
                 <a class="nav-link nav-font" href="./about.html">About</a>
@@ -33,42 +33,56 @@
             </div>
         </div>
     </nav>
-    <div class="page-elements">
-      <div class="text-card bg">
-        <div class="card" style="border:0px">
-            <div class="card-body text-card-bg">
-              <h2 class="card-title text-card-font_title">Hi. I'm Brennan.</h2>
-              <p class="card-text text-card-font_body">
-                This is my portfolio site.  
-                I am currently a student at devCodeCamp working on completing their 
-                Full Stack Web Development program.  This is filler text because
-                I do not know what to put in this section.</p>
-              <a href="#word" class="card-link">Read more</a>
+
+    <section class="body-elements">
+
+      <div class="row">
+        <div class="page-elements col">
+          <div class="text-card bg">
+            <div class="card" style="border:0px">
+                <div class="card-body text-card-bg">
+                  <h2 class="card-title text-card-font_title">Hi. I'm Brennan.</h2>
+                  <p class="card-text text-card-font_body">
+                    This is my portfolio site.  **Fill Out**
+                  </p>
+                  <a href="./about.html" class="card-link">Read more</a>
+                </div>
             </div>
+          </div>
+      
+          <div class="image-card">
+                <div class="card image-card-bg" style="border:0px">
+                  <div class="card-body image-card-txt_size">
+                    <h5 class="card-title image-card-font_title">Featured Project</h5>
+                    <h4 class="card-title image-card-font_subtitle">"Most Wanted"</h4>
+                    <p class="card-text image-card-font_body">'Most Wanted' was written to be able to search people and their lineage based on their name or a combination of traits. It includes a recursive search algorithm and is written using Node.JS.</p>
+                    <a href="./projects.html#featured" class="card-link">Read more</a>
+                  </div>
+                  <img src="images/most-wanted-ref-img.PNG" class="card-img-bottom image-card-img_size image-card-img_border" alt="...">
+                </div>
+          </div>
+        </div> 
+        <div class="col image-block-left">
+          <div class="image-block-size">
+            <img src="./images/brennan-1.jpg" class="image-block-size_large image-card-img_border" alt="ref image">
+          </div>
+          <div class="image-block-left_bottom image-block-size">
+            <img src="./images/sai-krishna-VsxXvPy1syI-unsplash.jpg" class="image-block-size_small image-card-img_border" alt="ref image">
+          </div>
+        </div>
+        <div class="col image-block-right">
+          <div class="image-block-right_top image-block-size">
+            <img src="./images/goran-ivos-iacpoKgpBAM-unsplash.jpg" class="image-block-size_small image-card-img_border" alt="ref image">
+          </div>
+          <div class="image-block-size">
+            <img src="./images/brennan-2.jpg" class="image-block-size_large image-card-img_border" alt="ref image">
+          </div>
         </div>
       </div>
-
-      
-      <div class="image-card">
-            <div class="card image-card-bg" style="border:0px">
-              <div class="card-body image-card-txt_size">
-                <h5 class="card-title image-card-font_title">Featured Project</h5>
-                <h4 class="card-title image-card-font_subtitle">"Most Wanted"</h4>
-                <p class="card-text image-card-font_body">'Most Wanted' was written to be able to search people and their lineage based on their name or traits. It is written in Javascript and utilizes multiple JS scripts.  It also includes a recursive search algorithm.</p>
-                <a href="#word" class="card-link">Read more</a>
-              </div>
-              <img src="images/most-wanted-ref-img.PNG" class="card-img-bottom image-card-img_size image-card-img_border" alt="...">
-            </div>
-      </div>
-    </div>
-    <!-- <div style="text-align: right">
-      <img src="images/500x500ref.jpg" width="100" />
-      <img style="float: right; margin: 0px 15px 15px 0px;" src="images/500x500ref.jpg" width="100" />
-    </div> -->
-
-    <div class="word" id="word">
-        Hello World
-    </div>
+       
+    </section>
+    
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

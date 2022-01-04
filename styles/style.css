@@ -48,6 +48,13 @@
     padding-right: 3rem;
 }
 
+.body-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .text-card {
     padding-top: 12rem;
     padding-left: 2.5rem;
@@ -124,4 +131,38 @@
 
 .page-elements {
     width: 40vw;
+}
+
+.image-block-size {
+    width: 35rem;
+    height: auto;
+}
+
+.image-block-left {
+    padding-top: 12rem;
+    padding-left: 9rem;
+}
+
+.image-block-left_bottom {
+    padding-top: 6rem;
+    padding-left: 10rem;
+}
+
+.image-block-right {
+    padding-top: 12rem;
+}
+
+.image-block-right_top {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+.image-block-size_large {
+    width: 35rem;
+    height: 35rem;
+}
+
+.image-block-size_small {
+    width: 25rem;
+    height: 25rem;
 }
