@@ -171,3 +171,15 @@
     width: 25rem;
     height: 25rem;
 }
+
+.contact-form {
+    padding-top: 12rem;
+    width: 35vw;
+    height: auto;
+}
+
+.contact-form-text {
+    font-size: 2rem; 
+    font-family: "Bahnschrift", Times, serif;
+    color: #3c46d9;
+}
