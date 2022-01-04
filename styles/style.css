@@ -148,6 +148,11 @@
     padding-left: 10rem;
 }
 
+.image-block-left_bottom_overlap {
+    padding-left: 17.5rem;
+    padding-top: 5rem;
+}
+
 .image-block-right {
     padding-top: 12rem;
 }
